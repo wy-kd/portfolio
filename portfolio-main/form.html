@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/form.css">
+    <title>Student Details</title>
+</head>
+
+<body>
+
+    <form action="form-submitted.html">
+        <h1>Student Details</h1>
+        <table>
+            <tr>
+                <th class="text">Student ID</th>
+                <th><input type="text"></th>
+            </tr>
+
+            <tr>
+                <td class="text">Name</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td class="text">Gender</td>
+                <td>
+                    <input type="radio" id="male" name="gender" value="male"><label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="male"><label for="female">Female</label>
+                    <input checked type="radio" id="not-say" name="gender" value="not-say"><label for="not-say">Rather
+                        Not Say</label>
+                </td>
+            </tr>
+            <tr>
+                <td class="text">Favourite Module</td>
+                <td><select>
+                        <option disabled selected>Please choose a mdoule...</option>
+                        <option>Introduction to Computing</option>
+                        <option>Web Programming</option>
+                        <option>Introduction to Algorithm</option>
+                    </select></td>
+            </tr>
+            <tr>
+                <td class="text">Notes</td>
+                <td><textarea></textarea></td>
+            </tr>
+            <tr>
+                <td class="submit"><a href="form-submitted.html"><input type="button" value="Submit"></a></td>
+                <td class="reset"><a href="form.html"><input type="button" value="Reset"></a></td>
+            </tr>
+
+        </table>
+    </form>
+
+</body>

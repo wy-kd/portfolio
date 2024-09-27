@@ -1,0 +1,60 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+table {
+    width: 75%;
+    column-width: 0px;
+    margin: 0px auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 6px;
+    box-sizing: border-box;
+    color: white;
+}
+
+input [type="text"],
+select {
+    width: 95%;
+    padding: 6px;
+    box-sizing: border-box;
+}
+
+textarea {
+    max-width: 65%;
+    height: 200px;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+td.submit {
+    text-align: right;
+}
+
+td.submit,
+.reset {
+    border: 0px;
+}
+
+.text {
+    font-weight: bold;
+    text-align: right;
+}
